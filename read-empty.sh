@@ -1,3 +1,4 @@
+#! /bin/bash
 # Find a way to do it in only one call to find
 read -r -p "Enter path to directory: " line
 

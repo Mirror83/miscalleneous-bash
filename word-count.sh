@@ -1,3 +1,5 @@
+#!/bin/bash
+
 words=$(cat "JUJAyetu.txt")
 
 words_total=${#words}
