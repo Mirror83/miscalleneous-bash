@@ -1,0 +1,5 @@
+Name            Email
+Eustass Kamau   kamau@students.jkuat.ac.ke
+Pash Pavitra    pash@students.jkuat.ac.ke
+Nelly Malindi   malindi@students.jkuat.ac.ke
+Pepper Matember pmatemeber@students.jkuat.ac.ke
