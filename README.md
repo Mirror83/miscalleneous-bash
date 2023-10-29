@@ -1,5 +1,5 @@
 # Miscalleneous Shell Scripts
-A collectibash of shell scripts serving as the solution to the questions in [this file](ICS_2305_BASH_ASSIGNEMNT.pdf)
+A collection of bash shell scripts serving as the solution to the questions in [this file](ICS_2305_BASH_ASSIGNEMNT.pdf)
 
 ## 7. mail-merge.sh
 For this script to run, you need the [jq](https://jqlang.github.io/jq/) package installed on your system.
