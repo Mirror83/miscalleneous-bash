@@ -1,16 +1,38 @@
 # Miscalleneous Shell Scripts
 A collection of bash shell scripts serving as the solution to the questions in [this file](ICS_2305_BASH_ASSIGNEMNT.pdf)
 
+## image-conversion.sh
+This script depends on the [imagemagik](https://imagemagick.org/) package. For Debain-based systems, the following command can be used to get it:
+```bash
+sudo apt update
+sudo apt install imagemagik
+```
+
+### Image Attributions
+These are the attributions for the images in the [images](./images/) folder.
+
+
+- [The Red Train](https://pin.it/AXH55AM) by [HanzoAI](https://www.pinterest.com/HanzoAiArt/)
+
+- [pink-and-green-vintage-car-parked-beside-brown-concrete-building-during-daytime](https://unsplash.com/photos/pink-and-green-vintage-car-parked-beside-brown-concrete-building-during-daytime-aUtMy02DOo4?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) by [hidde schalm](https://unsplash.com/@hdsfotografie95?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
+
+## logtime.sh
+```bash
+sudo apt udpdate
+sudo apt install net-tools
+```
+
 ## mail-merge.sh
 For this script to run, you need the [jq](https://jqlang.github.io/jq/) package installed on your system.
 For Debian systems:
 ```bash
+sudo apt update
 sudo apt install jq
 ```
 This package is a lightweight and flexible command line JSON processor, but here, it has been used to url-encode the message in order to make sure that special characters like `\n` and `&` are handled correctly.
 
-The implementation also assumes that the x-www-browser preference is set (preferrably to Firefox). It calls 
-x-www-browser with a `mailto` url containing the subject, recepients and message.
+The implementation also assumes that the `x-www-browser` alternative is set (preferrably to Firefox). It calls 
+`x-www-browser` with a `mailto` url containing the subject, recepients and message.
 
 An alternative to this can be to use the `open` command with the `mailto` url. This assumes that the default email application is set.
 
