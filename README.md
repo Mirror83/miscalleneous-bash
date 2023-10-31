@@ -5,6 +5,9 @@ The follwing is a short discussion on a few of the questions that needed some su
 apart from the scripts themsevels and the comments therein
 The heading for each section is the name of the script and the number that it corresponds to in the [pdf](ICS_2305_BASH_ASSIGNEMNT.pdf)
 
+## 2. character-count.sh
+The required [JUJAYetu](./JUJAyetu.txt) text file is in the current directory
+
 ## 4. read-empty.sh
 You can test that this command behaves as expected using the [./fav-animals](./fav-animals/) directory.
 
@@ -48,7 +51,6 @@ The implementation also assumes that the `x-www-browser` alternative is set (pre
 
 An alternative to this can be to use the `open` command with the `mailto` url. This assumes that the default email application is set.
 
-The implementation needs to be made general so that it can "mail-merge" any message and for any set of recepients with any subject line.
-Ideally, I would like this to be achieved by allowing one to pass in the recepients file, the subject line and the message file instead of them being hard-coded into the script. But it satisfies its corresponding question (no. 7) as is.
+You can user the data in the [./mail-merge](./mail-merge/) and the subject "Invitation to Innovation Incubation" to confirm it works as expected.
 
 The script was tested with Firefox but did not work with Chrome. Chrome completely ignored the `mailto` url when trying to pass it through the terminal.
