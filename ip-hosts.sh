@@ -1,4 +1,5 @@
-#! /bin/bash
+#!/bin/bash
+
 base_ip=$1
 usage="usage: ip-hosts BASE_IP_ADDRESS
 where BASE_IP_ADDRESS is an ip address without the 4th part

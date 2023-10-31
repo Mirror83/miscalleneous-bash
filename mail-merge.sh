@@ -1,5 +1,4 @@
-#! /bin/bash
-
+#!/bin/bash
 
 usage="usage: ./mail-merge.sh recepients-file message-file subject
     recepients-file - Path to the file containing the recepients of the email

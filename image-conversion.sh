@@ -1,4 +1,5 @@
-#! /bin/bash
+#!/bin/bash
+
 read -r -p "Enter path to directory: " line
 
 if ! test -d "$line"; then
