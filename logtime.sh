@@ -1,8 +1,5 @@
 #!/bin/bash
 
-# Get the UID from the user
-#! /bin/bash
-
 read -r -p "Enter the user's UID: " uid
 user_name=$(id -u --name "$uid")
 
