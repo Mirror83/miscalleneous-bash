@@ -1,5 +1,5 @@
 #! /bin/bash
-# Find a way to do it in only one call to find
+# TODO: Find a way to do it in only one call to find
 read -r -p "Enter path to directory: " line
 
 printf "\n%-50s %-50s\n" "Empty directory" "Time created"
