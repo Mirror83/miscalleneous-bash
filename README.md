@@ -10,7 +10,7 @@ Below, the scripts are listed in the order of the question they answer:
 6. [ip-hosts.sh](./ip-hosts.sh)
 7. [mail-merge.sh](./mail-merge.sh)
 
-The follwing is a short discussion on a few of the questions that needed some supplemenatry informationn
+The follwing is a short discussion on a few of the questions that needed some supplemenatry information
 apart from the scripts themsevels and the comments therein:
 
 ## 2. character-count.sh
