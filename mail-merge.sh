@@ -1,9 +1,6 @@
 #! /bin/bash
 
-# The grep command extracts the email addresses using the email regex in email-regex.txt,
-# xargs formats the lines of output produced
-# by grep into a single line, with each line delimited by spaces and finally
-# tr converts those spaces into commas
+
 usage="usage: ./mail-merge.sh recepients-file message-file subject
     recepients-file - Path to the file containing the recepients of the email
     message-file - Path to the file containing the content of the email
@@ -24,6 +21,11 @@ elif [ ! -e "$2" ]; then
     exit 2
 fi
 
+
+# The grep command extracts the email addresses using the email regex in email-regex.txt,
+# xargs formats the lines of output produced
+# by grep into a single line, with each line delimited by spaces and finally
+# tr converts those spaces into commas
 recepients=$(grep -E -o "[A-Za-z0-9._]+@[A-Za-z0-9.]+\.[a-zA-Z]{2,4}" "$1" | xargs | tr " " ",")
 
 subject="$3"
