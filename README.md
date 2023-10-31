@@ -1,5 +1,12 @@
 # Miscalleneous Shell Scripts
-A collection of bash shell scripts serving as the solution to the questions in [this file](ICS_2305_BASH_ASSIGNEMNT.pdf)
+A collection of bash shell scripts serving as the solution to the questions in [this pdf file](ICS_2305_BASH_ASSIGNEMNT.pdf)
+
+The follwing is a short discussion on a few of the questions that needed some supplemenatry informationn
+apart from the scripts themsevels and the comments therein
+The heading for each section is the name of the script and the number that it corresponds to in the [pdf](ICS_2305_BASH_ASSIGNEMNT.pdf)
+
+## 4. read-empty.sh
+You can test that this command behaves as expected using the [./fav-animals](./fav-animals/) directory.
 
 ## 5. image-conversion.sh
 This script depends on the [imagemagik](https://imagemagick.org/) package. For Debain-based systems, the following command can be used to get it:
@@ -8,7 +15,7 @@ sudo apt update
 sudo apt install imagemagik
 ```
 
-You can test that this command behaves as expected using 
+You can test that this command behaves as expected using the images in [./images/bmps](./images/bmps/)
 
 ### Image Attributions
 These are the attributions for the images in the [images](./images/) folder.
