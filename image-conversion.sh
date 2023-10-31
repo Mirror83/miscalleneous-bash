@@ -22,7 +22,8 @@ convert_count=0
 for file in $bmp_files; do
     filename=$(basename "$file")
     filename_without_ext=${filename%.*}
-
+ 
+    # Assumes imagemagik is installed
     convert "$file" "$filename_without_ext.jpeg"
     mv "$filename_without_ext.jpeg" "$output_dir"
 
