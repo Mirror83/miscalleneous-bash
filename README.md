@@ -1,9 +1,17 @@
 # Miscalleneous Shell Scripts
 A collection of bash shell scripts serving as the solution to the questions in [this pdf file](ICS_2305_BASH_ASSIGNEMNT.pdf)
 
+Below, the scripts are listed in the order of the question they   answer:
+1. [reading.sh](./reading.sh)
+2. [character-count.sh](./character-count.sh)
+3. [logtime.sh](./logtime.sh)
+4. [read-empty.sh](./read-empty.sh)
+5. [image-conversion.sh](./image-conversion.sh)
+6. [ip-hosts.sh](./ip-hosts.sh)
+7. [mail-merge.sh](./mail-merge.sh)
+
 The follwing is a short discussion on a few of the questions that needed some supplemenatry informationn
-apart from the scripts themsevels and the comments therein
-The heading for each section is the name of the script and the number that it corresponds to in the [pdf](ICS_2305_BASH_ASSIGNEMNT.pdf)
+apart from the scripts themsevels and the comments therein:
 
 ## 2. character-count.sh
 The required [JUJAYetu](./JUJAyetu.txt) text file is in the current directory
